@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CVMTHookManager.cpp" />
+    <ClCompile Include="CRC32.cpp" />
+    <ClCompile Include="Prediction.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVars.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="NVHooks.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserCmd.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameStageNotify.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpolation.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="NetChan.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMove.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="SendDataGram.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="NC_ShutDown.cpp">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="GarrysMod\Lua\Interface.h">
+      <Filter>GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="GarrysMod\Lua\LuaBase.h">
+      <Filter>GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="GarrysMod\Lua\Types.h">
+      <Filter>GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="GarrysMod\Lua\UserData.h">
+      <Filter>GarrysMod\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h" />
+    <ClInclude Include="SigScan.h" />
+    <ClInclude Include="CVMTHookManager.h" />
+    <ClInclude Include="CRC32.h" />
+    <ClInclude Include="Prediction.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVars.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="NVHooks.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserCmd.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameStageNotify.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpolation.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="NetChan.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMove.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="SendDataGram.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="NC_ShutDown.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GarrysMod">
+      <UniqueIdentifier>{c602fcd3-a0dc-4b29-b636-a70177ff9b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GarrysMod\Lua">
+      <UniqueIdentifier>{cc77fb3d-38ac-48fa-8c1a-4ed67a9c4264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{a6fad8e0-071b-46e4-8093-ed6c8bc1b53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{45851585-02a5-4b84-be09-53fc882a950f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
